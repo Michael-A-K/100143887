@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rGXsbu4z)
 
 # Functional Battles!
 >The Wizards Council of the Mid-lands needs your help. In order do defeat the evil invaders of the Old World Order, certain calculations must be completed in order to properly cast spells of the appropriate size and strength. 
