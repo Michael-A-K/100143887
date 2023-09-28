@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Rectangle Perimeters",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Trapezoidal Areas",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest2.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Conical volumes",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Cubical Surface Areas",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest4.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Circular Areas",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest5.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Attack Vectors",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest6.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Atmospheric Shifts",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/mainTest7.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
