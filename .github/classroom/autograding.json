@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 2,
-      "points": 5
+      "points": null
     },
     {
       "name": "Trapezoidal Areas",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 2,
-      "points": 5
+      "points": null
     },
     {
       "name": "Conical volumes",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 2,
-      "points": 5
+      "points": null
     },
     {
       "name": "Cubical Surface Areas",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 2,
-      "points": 5
+      "points": null
     },
     {
       "name": "Circular Areas",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 2,
-      "points": 5
+      "points": null
     },
     {
       "name": "Atmospheric Shifts",
