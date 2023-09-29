@@ -1,38 +1,33 @@
-# Your Name
+# Michael Kongstvedt
 # Date of Completion
 # Lab Purpose
 
-
 def periRect(l, w):
-    return 0
-
+    return l*2 + w*2
 
 def trapArea(b1, b2, h):
-    return 0
-
+    return (0.5(b1+b2))
 
 def conicVol(r, h):
     return 0
 
-
 def cubicBarrier(s):
     return 0
-
 
 def blastArea(r):
     return 0
 
-
 def elevationVect(x1, y1, x2, y2):
     return 0
-
 
 def atmoShift(f):
     return 0
 
-
 # add more tests to make sure your functions are correctly working
 print(periRect(12, 5))
+print(periRect(10, 7))
+print(periRect(1, 2))
+print(periRect(3, 21))
 
 print("{0:.1f}".format(trapArea(3, 3, 3)))
 
