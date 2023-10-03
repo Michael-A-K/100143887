@@ -12,7 +12,7 @@ def conicVol(r, h):
     return (math.pi*(r*r)*(h/3))
 
 def cubicBarrier(s):
-    return s*(s*s)
+    return 6*(s*s)
 
 def blastArea(r):
     return math.pi *(r*r)
