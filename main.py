@@ -56,7 +56,7 @@ print("elevationVect4",elevationVect(30, 27, 0, 2))
 
 print("{0:.1f}".format(trapArea(3, 3, 3)))
 
-print("{0:.3f".format(cubicBarrier(6)))
+print("{0:.3f}".format(cubicBarrier(6)))
 
 print("{0:.2f}".format(conicVol(4, 4)))
 
