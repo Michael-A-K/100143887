@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #6897bb;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># Michael Kongstvedt</span>
+<span class="s0"># Date of Completion</span>
+<span class="s0"># Lab Purpose</span>
+<span class="s2">import </span><span class="s1">math</span>
+<span class="s2">def </span><span class="s1">periRect(l</span><span class="s2">, </span><span class="s1">w):</span>
+    <span class="s2">return </span><span class="s1">l*</span><span class="s3">2 </span><span class="s1">+ w*</span><span class="s3">2</span>
+
+<span class="s2">def </span><span class="s1">trapArea(b1</span><span class="s2">, </span><span class="s1">b2</span><span class="s2">, </span><span class="s1">h):</span>
+    <span class="s2">return </span><span class="s1">(</span><span class="s3">0.5</span><span class="s1">*(b1+b2))*h</span>
+
+<span class="s2">def </span><span class="s1">conicVol(r</span><span class="s2">, </span><span class="s1">h):</span>
+    <span class="s2">return </span><span class="s1">(math.pi*(r*r)*(h/</span><span class="s3">3</span><span class="s1">))</span>
+
+<span class="s2">def </span><span class="s1">cubicBarrier(s):</span>
+    <span class="s2">return </span><span class="s1">s*s*s</span>
+
+<span class="s2">def </span><span class="s1">blastArea(r):</span>
+    <span class="s2">return </span><span class="s1">math.pi *(r*r)</span>
+
+<span class="s2">def </span><span class="s1">elevationVect(x1</span><span class="s2">, </span><span class="s1">y1</span><span class="s2">, </span><span class="s1">x2</span><span class="s2">, </span><span class="s1">y2):</span>
+    <span class="s2">return </span><span class="s1">(y2-y1)/(x2-x1)</span>
+
+<span class="s2">def </span><span class="s1">atmoShift(f):</span>
+    <span class="s2">return </span><span class="s1">(f-</span><span class="s3">32</span><span class="s1">)*(</span><span class="s3">5</span><span class="s1">/</span><span class="s3">9</span><span class="s1">)</span>
+
+<span class="s0"># add more tests to make sure your functions are correctly working</span>
+<span class="s1">print(</span><span class="s4">&quot;rect1&quot;</span><span class="s2">,</span><span class="s1">periRect(</span><span class="s3">12</span><span class="s2">, </span><span class="s3">5</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;rect2&quot;</span><span class="s2">,</span><span class="s1">periRect(</span><span class="s3">10</span><span class="s2">, </span><span class="s3">7</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;rect3&quot;</span><span class="s2">,</span><span class="s1">periRect(</span><span class="s3">1</span><span class="s2">, </span><span class="s3">2</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;rect4&quot;</span><span class="s2">,</span><span class="s1">periRect(</span><span class="s3">3</span><span class="s2">, </span><span class="s3">21</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;trap1&quot;</span><span class="s2">,</span><span class="s1">trapArea(</span><span class="s3">3</span><span class="s2">, </span><span class="s3">21</span><span class="s2">, </span><span class="s3">5</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;trap2&quot;</span><span class="s2">,</span><span class="s1">trapArea(</span><span class="s3">7</span><span class="s2">, </span><span class="s3">2</span><span class="s2">, </span><span class="s3">4</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;trap3&quot;</span><span class="s2">,</span><span class="s1">trapArea(</span><span class="s3">1</span><span class="s2">, </span><span class="s3">9</span><span class="s2">, </span><span class="s3">3</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;trap4&quot;</span><span class="s2">,</span><span class="s1">trapArea(</span><span class="s3">6</span><span class="s2">, </span><span class="s3">12</span><span class="s2">, </span><span class="s3">3</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;conicVol1&quot;</span><span class="s2">,</span><span class="s1">conicVol(</span><span class="s3">3</span><span class="s2">, </span><span class="s3">12</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;conicVol2&quot;</span><span class="s2">,</span><span class="s1">conicVol(</span><span class="s3">2</span><span class="s2">, </span><span class="s3">4</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;conicVol3&quot;</span><span class="s2">,</span><span class="s1">conicVol(</span><span class="s3">5</span><span class="s2">, </span><span class="s3">8</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;conicVol4&quot;</span><span class="s2">,</span><span class="s1">conicVol(</span><span class="s3">9</span><span class="s2">, </span><span class="s3">7</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;Cube1&quot;</span><span class="s2">,</span><span class="s1">cubicBarrier(</span><span class="s3">3</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;Cube2&quot;</span><span class="s2">,</span><span class="s1">cubicBarrier(</span><span class="s3">15</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;Cube3&quot;</span><span class="s2">,</span><span class="s1">cubicBarrier(</span><span class="s3">8</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;Cube4&quot;</span><span class="s2">,</span><span class="s1">cubicBarrier(</span><span class="s3">7</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;CircleA1&quot;</span><span class="s2">,</span><span class="s1">blastArea(</span><span class="s3">3</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;CircleA2&quot;</span><span class="s2">,</span><span class="s1">blastArea(</span><span class="s3">5</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;CircleA3&quot;</span><span class="s2">,</span><span class="s1">blastArea(</span><span class="s3">11</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;CircleA4&quot;</span><span class="s2">,</span><span class="s1">blastArea(</span><span class="s3">24</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;elevationVect1&quot;</span><span class="s2">,</span><span class="s1">elevationVect(</span><span class="s3">3</span><span class="s2">, </span><span class="s3">7</span><span class="s2">, </span><span class="s3">12</span><span class="s2">, </span><span class="s3">5</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;elevationVect2&quot;</span><span class="s2">,</span><span class="s1">elevationVect(</span><span class="s3">4</span><span class="s2">, </span><span class="s3">5</span><span class="s2">, </span><span class="s3">9</span><span class="s2">, </span><span class="s3">6</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;elevationVect3&quot;</span><span class="s2">,</span><span class="s1">elevationVect(</span><span class="s3">0</span><span class="s2">, </span><span class="s3">1</span><span class="s2">, </span><span class="s3">13</span><span class="s2">, </span><span class="s3">15</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s4">&quot;elevationVect4&quot;</span><span class="s2">,</span><span class="s1">elevationVect(</span><span class="s3">30</span><span class="s2">, </span><span class="s3">27</span><span class="s2">, </span><span class="s3">0</span><span class="s2">, </span><span class="s3">2</span><span class="s1">))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;{0:.1f}&quot;</span><span class="s1">.format(trapArea(</span><span class="s3">3</span><span class="s2">, </span><span class="s3">3</span><span class="s2">, </span><span class="s3">3</span><span class="s1">)))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;{0:.2f}&quot;</span><span class="s1">.format(conicVol(</span><span class="s3">4</span><span class="s2">, </span><span class="s3">4</span><span class="s1">)))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;{0:.1f}&quot;</span><span class="s1">.format(blastArea(</span><span class="s3">7.5</span><span class="s1">)))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;{0:.2f}&quot;</span><span class="s1">.format(elevationVect(</span><span class="s3">1</span><span class="s2">, </span><span class="s3">9</span><span class="s2">, </span><span class="s3">14</span><span class="s2">, </span><span class="s3">2</span><span class="s1">)))</span>
+
+<span class="s1">print(</span><span class="s4">&quot;{0:.2f}&quot;</span><span class="s1">.format(atmoShift(</span><span class="s3">98.6</span><span class="s1">)) + </span><span class="s4">&quot; degrees celsius&quot;</span><span class="s1">)</span>
+</pre>
+</body>
+</html>
